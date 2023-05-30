@@ -1,0 +1,115 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main
+{
+    width: 1140px;
+    height: 100%;
+    display: grid;
+}
+.main .box1 
+{
+    text-align: center;
+    height: 310px;
+    background: #fd7e14;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.main .box1 .logo img
+{
+    width: 444px;
+    height: 147px;
+    cursor: pointer;
+}
+.main .box1 .download
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .box1 .download .button-dl
+{
+    width: 114px;
+    height: 64px;
+    padding: 0px 20px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.main .box1 .download .button-dl button
+{
+    background: none;
+    border: none;
+    width: 97px;
+    height: 44px;
+    cursor: pointer;
+}
+.main .box1 .canhbao
+{
+    width: 1110px;
+    height: 20px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.main .box1 .menuweb
+{
+    height: 270px;
+    width: 1140px;
+}
+.main .box1 .menuweb button
+{
+    width: 360px;
+    height: 34px;
+    background-color:#81332a;
+    border-color:#000000;
+    border-radius:4px;
+    border-style:solid;
+    border-width:1px;
+    color:#fff;
+    display:inline-block;
+    font-family:Verdana;
+    line-height:24px;
+    padding:4px;
+    text-align:center;
+    border: none;
+    cursor: pointer;
+
+}
+.main .box1 .menuweb button:hover
+{
+    color: #212529;
+}
+.main .box2
+{
+    width: 1140px;
+    height: 200px;
+    color:#212529;
+    background: #ffaf4c;
+    text-align:left;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+.main .box2 .login
+{
+    width: 1140px;
+    height: 150px;
+    text-align: center;
+}
+.main .box2 .login button
+{
+    width: 360px;
+    height: 34px;
+    background: #fd7e14;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}

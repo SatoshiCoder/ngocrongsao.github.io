@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap');
+/* *
+{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main
+{
+    width: 1140px;
+    height: 100%;
+    
+}
+.main .box1 
+{
+    text-align: center;
+    height: 310px;
+    background: #fd7e14;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.main .box1 .logo img
+{
+    width: 444px;
+    height: 147px;
+    cursor: pointer;
+}
+.main .box1 .download
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .box1 .download .button-dl
+{
+    width: 114px;
+    height: 64px;
+    padding: 0px 20px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.main .box1 .download .button-dl button
+{
+    background: none;
+    border: none;
+    width: 97px;
+    height: 44px;
+    cursor: pointer;
+}
+.main .box1 .canhbao
+{
+    width: 1110px;
+    height: 20px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.main .box1 .menuweb
+{
+    height: 270px;
+    width: 1140px;
+}
+.main .box1 .menuweb button
+{
+    width: 360px;
+    height: 34px;
+    background-color:#81332a;
+    border-color:#000000;
+    border-radius:4px;
+    border-style:solid;
+    border-width:1px;
+    color:#fff;
+    display:inline-block;
+    font-family:Verdana;
+    line-height:24px;
+    padding:4px;
+    text-align:center;
+    border: none;
+    cursor: pointer;
+
+}
+.main .box1 .menuweb button:hover
+{
+    color: #212529;
+}
+.main .box2
+{
+    width: 1140px;
+    height: 1350px;
+    color:#212529;
+    background: #ffaf4c;
+    text-align:left;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.main .goithieu
+{
+    margin: 0px 15px;
+    color: #212529;
+    font-family: sans-serif;
+
+}
+.main .goithieu .dangkinhanqua
+{
+    width: 1140px;
+    height: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.main .goithieu .dangkinhanqua img
+{
+    padding: 0px 5px;
+}
+.main .goithieu .dangkinhanqua a
+{
+    text-decoration: none;
+    color: #212529;
+}
+.main .goithieu .dangkinhanqua a:hover
+{
+    text-decoration: underline;
+    color: #212529;
+}
+.main .goithieu .gt h5
+{
+    width: 1110px;
+    height: 5px;
+    color: #dc3545;
+    
+    font-size:30px;
+   
+    text-align:left
+}
+.main .goithieu .skill
+{
+    width: 1110px;
+    height: 106px;
+    text-align: center;
+}
+.main .goithieu .skill img
+{
+    width: 96px;
+    height: 90px;
+}
+.main .huongdantanthu
+{
+    margin: 0px 15px;
+    color: #212529;
+    font-family: sans-serif;
+}
+.main .huongdantanthu h5
+{
+    width: 1110px;
+    height: 5px;
+    color: #dc3545;
+    font-size:30px;
+    text-align:left
+}
+.main .bannen
+{
+    margin: 0px 15px;
+    color: #212529;
+    font-family: sans-serif;
+}
+.main .bannen h5
+{
+    width: 1110px;
+    height: 10px;
+    color: #dc3545;
+    font-size:26px;
+    text-align:left
+}
